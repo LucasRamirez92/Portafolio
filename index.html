@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Portfolio | Lucas Ramirez</title>
+</head>
+<body class="light-mode"> <header class="main-header">
+        <div class="containerHero">
+            <figure class="logo">
+                <img src="./images/logo.png" alt="Logo">
+            </figure>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#hero">Quién soy</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <button id="theme-toggle" class="btn-mode">Light</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="containerHeroIntro">
+            <div class="hero-content">
+                <figure class="profile-pic">
+                    <img src="./assets/fotoPerfil.png" alt="Foto de Lucas Ramirez">
+                </figure>
+                <div class="containerQuienSoy">
+                    <h1>Hola, soy Lucas Ramirez</h1>
+                    <p class="subtitle">Programador Web & Diseñador</p>
+                    <p>Estudiante de la UTN apasionado por el código limpio y el diseño funcional.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="containerTecnologias">
+            <div class="section-title">
+                <h2>Stack Tecnológico</h2>
+            </div>
+            <ul class="containerSkillsLogos">
+                <li class="logo-item">
+                    <img src="./assets/python.png" alt="Python">
+                    <span>Python</span>
+                </li>
+                <li class="logo-item">
+                    <img src="./assets/js.png" alt="JS">
+                    <span>JavaScript</span>
+                </li>
+                <li class="logo-item">
+                    <img src="./assets/html-5.png" alt="HTML">
+                    <span>HTML</span>
+                </li>
+                <li class="logo-item">
+                    <img src="./assets/css-3.png" alt="css">
+                    <span>CSS</span>
+                </li>
+                <li class="logo-item">
+                    <img src="./assets/react.png" alt="React">
+                    <span>React</span>
+                </li>
+                <li class="logo-item">
+                    <img src="./assets/git.png" alt="Git">
+                    <span>Git</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills-performance-section">
+            <div class="containerPerformanceBars">
+                
+                <article class="performance-row" style="--target-width: 85%;">
+                    <header class="tech-info">
+                        <span class="tech-name">JavaScript</span>
+                        <span class="tech-metric" data-target="85">0%</span>
+                    </header>
+                    <div class="bar-wrapper">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="performance-row" style="--target-width: 75%;">
+                    <header class="tech-info">
+                        <span class="tech-name">Python</span>
+                        <span class="tech-metric" data-target="75">0%</span>
+                    </header>
+                    <div class="bar-wrapper">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="performance-row" style="--target-width: 75%;">
+                    <header class="tech-info">
+                        <span class="tech-name">HTML</span>
+                        <span class="tech-metric" data-target="75">0%</span>
+                    </header>
+                    <div class="bar-wrapper">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="performance-row" style="--target-width: 75%;">
+                    <header class="tech-info">
+                        <span class="tech-name">React</span>
+                        <span class="tech-metric" data-target="75">0%</span>
+                    </header>
+                    <div class="bar-wrapper">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="performance-row" style="--target-width: 75%;">
+                    <header class="tech-info">
+                        <span class="tech-name">Css</span>
+                        <span class="tech-metric" data-target="75">0%</span>
+                    </header>
+                    <div class="bar-wrapper">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="performance-row" style="--target-width: 90%;">
+                    <header class="tech-info">
+                        <span class="tech-name">Git</span>
+                        <span class="tech-metric" data-target="90">0%</span>
+                    </header>
+                    <div class="bar-wrapper">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+        <section id="trabajos" class="containerTrabajos">
+            <div class="section-title">
+                <h2>Proyectos Seleccionados</h2>
+            </div>
+            <div class="bento-grid">
+                <article class="project-card large">
+                    <img src="./images/trabajo1.png" alt="Proyecto Burger">
+                    <div class="card-info">
+                        <h3>Burger Web</h3>
+                        <span>Desarrollo Web</span>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="./images/trabajo2.png" alt="Trabajo 2">
+                    <div class="card-info">
+                        <h3>Próximamente</h3>
+                        <span>En desarrollo</span>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="./images/trabajo3.png" alt="Trabajo 3">
+                    <div class="card-info">
+                        <h3>Próximamente</h3>
+                        <span>En desarrollo</span>
+                    </div>
+                </article>
+                <article class="project-card medium">
+                    <img src="./images/trabajo4.png" alt="Trabajo 4">
+                    <div class="card-info">
+                        <h3>Próximamente</h3>
+                        <span>En desarrollo</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="containerContacto">
+            <div class="section-title">
+                <h2>Hablemos</h2>
+                <p class="contact-subtitle">¿Tenés un proyecto en mente o una propuesta laboral?</p>
+            </div>
+            
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Ej. Juan Pérez" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="juan@ejemplo.com" required>
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" placeholder="Contame un poco sobre tu proyecto..." required></textarea>
+
+                <button type="submit" class="btn-submit">Enviar propuesta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="containerFooter">
+        <div class="footer-links">
+            <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">GitHub</a>
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener">Workana</a>
+        </div>
+        <p>&copy; 2026 - Hecho con sobriedad y código.</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
