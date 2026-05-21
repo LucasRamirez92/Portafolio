@@ -453,3 +453,53 @@ nav ul li a:hover {
         padding: 2rem 1.5rem;
     }
 }
+
+
+@media (max-width: 1024px){
+    header .containerHero {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerHeroIntro{
+        flex-direction: column;
+    }
+    .hero-content{
+        flex-direction: column;
+    }
+    .containerTecnologias{
+        
+    }
+    .containerSkillsLogos{
+    }
+}
+
+
+@media (max-width: 768px){
+
+    .containerHero {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerHeroIntro{
+        padding: 2rem 1rem;
+    }
+    .hero-content{
+        padding: 2rem 1rem;
+    }
+    .containerTecnologias{
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 480px){
+    .containerHeroIntro{
+        padding: 1rem;
+    }
+    .hero-content{
+        padding: 1rem;
+    }
+    .containerTecnologias{
+        padding: 1rem;
+    }
+}
